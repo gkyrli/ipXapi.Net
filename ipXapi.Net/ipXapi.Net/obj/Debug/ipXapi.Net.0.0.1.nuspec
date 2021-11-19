@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ipXapi.Net</id>
+    <version>0.0.1</version>
+    <authors>GKyrli</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ipXapi SDK</description>
+    <repository url="https://github.com/gkyrli/ipXapi.Net" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\bin\Debug\netcoreapp3.1\ipXapi.Net.dll" target="lib\netcoreapp3.1\ipXapi.Net.dll" />
+  </files>
+</package>

@@ -2,6 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <PackageId>ipXapi.Net</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>GKyrli</Authors>
+        <PackageDescription>ipXapi SDK</PackageDescription>
+        <RepositoryUrl>https://github.com/gkyrli/ipXapi.Net</RepositoryUrl>
     </PropertyGroup>
 
 </Project>

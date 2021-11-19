@@ -12,7 +12,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.0.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\TrakterV2\\Git\\ipXapi.Net\\ipXapi.Net\\ipXapi.Net\\ipXapi.Net.csproj",
       "projectName": "ipXapi.Net",
@@ -31,7 +31,8 @@
       ],
       "sources": {
         "C:\\Users\\TrakterV2\\AppData\\Roaming\\NuGet\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/gkyrli/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {

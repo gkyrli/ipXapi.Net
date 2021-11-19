@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "ipXapi.Net/0.0.1": {
+      "ipXapi.Net/1.0.0": {
         "runtime": {
           "ipXapi.Net.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "ipXapi.Net/0.0.1": {
+    "ipXapi.Net/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
