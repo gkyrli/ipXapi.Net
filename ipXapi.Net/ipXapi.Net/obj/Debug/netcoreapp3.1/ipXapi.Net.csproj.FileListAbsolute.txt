@@ -1,9 +1,0 @@
-C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\bin\Debug\netcoreapp3.1\ipXapi.Net.deps.json
-C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\bin\Debug\netcoreapp3.1\ipXapi.Net.dll
-C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\bin\Debug\netcoreapp3.1\ipXapi.Net.pdb
-C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\obj\Debug\netcoreapp3.1\ipXapi.Net.csprojAssemblyReference.cache
-C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\obj\Debug\netcoreapp3.1\ipXapi.Net.AssemblyInfoInputs.cache
-C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\obj\Debug\netcoreapp3.1\ipXapi.Net.AssemblyInfo.cs
-C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\obj\Debug\netcoreapp3.1\ipXapi.Net.csproj.CoreCompileInputs.cache
-C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\obj\Debug\netcoreapp3.1\ipXapi.Net.dll
-C:\Users\TrakterV2\Git\ipXapi.Net\ipXapi.Net\ipXapi.Net\obj\Debug\netcoreapp3.1\ipXapi.Net.pdb
