@@ -1,28 +1,24 @@
 ﻿using System;
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace ipXapi.Net.JsonConverters
 {
-    public class EuVATConverter:JsonConverter<int?>
+    public class AnyToString:JsonConverter<string>
     {
-
-            public override int? Read(
+        public override string Read(
                 ref Utf8JsonReader reader,
                 Type typeToConvert,
                 JsonSerializerOptions options)
             {
-                return reader.TokenType switch
-                {
-                    JsonTokenType.False => null,
-                    JsonTokenType.Number => reader.GetInt32()
-                };
+                return Encoding.UTF8.GetString(reader.ValueSpan);
             }
 
             public override void Write(
                 Utf8JsonWriter writer,
-                int? intValue,
+                string value,
                 JsonSerializerOptions options) =>
-                writer.WriteStringValue(intValue?.ToString());
+                writer.WriteStringValue(value);
     }
 }

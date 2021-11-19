@@ -8,7 +8,8 @@ namespace ipXapi.Net.Model
     {
         [JsonPropertyName("is_proxy")]
         public bool IsProxy { get; set; }
-
+        
+        [JsonConverter(typeof(AnyToString))]
         [JsonPropertyName("proxy_type")]
         public string ProxyType { get; set; }
 
@@ -18,15 +19,18 @@ namespace ipXapi.Net.Model
         [JsonPropertyName("crawler_name")]
         public string CrawlerName { get; set; }
 
+        [JsonConverter(typeof(AnyToString))]
         [JsonPropertyName("crawler_type")]
         public string CrawlerType { get; set; }
 
         [JsonPropertyName("is_tor")]
         public bool IsTor { get; set; }
 
+        [JsonConverter(typeof(AnyToString))]
         [JsonPropertyName("threat_level")]
         public string ThreatLevel { get; set; }
 
+        [JsonConverter(typeof(AnyToString))]
         [JsonPropertyName("threat_types")]
         public string ThreatTypes { get; set; }
     }
@@ -124,7 +128,8 @@ namespace ipXapi.Net.Model
 
         [JsonPropertyName("callingCode")]
         public string CallingCode { get; set; }
-
+        
+        [JsonConverter(typeof(AnyToString))]
         [JsonPropertyName("languageCode")]
         public string LanguageCode { get; set; }
 
